@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+  </head>
+
+  <body>
+       
+    <div class="jumbotron jumbotron-fluid " style="background-color: #990000; color: white">
+      <div class="container">
+        <h1 class="text-center">The Psychic Game</h1>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">    
+                <h1 class="text-center">Guess What letter I'm thinking of</h1>
+            </div>
+        </div>
+
+        <div class="card">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Wins: <span id="wins"></span> </h5>
+                  <h5 class="card-title">Losses: <span id="losses"></span>  </h5>
+                  <h5 class="card-title">Guesses Left: <span id="guessesLeft"></span> </h5>
+                  <h5 class="card-title">Your guess so far: <span id="guessesSoFar"></span>  </h5>
+                  <a href="#" class="btn btn-primary" id="resetGame">Reset Game</a>
+                </div>
+              </div>
+    </div>
+
+    <div class="footer">
+    <footer class="page-footer font-small blue fixed-bottom" style="background-color: #990000; color: white">
+
+            <div class="footer-copyright text-center py-3 foot">
+                © 2019 Copyright:
+            </div>
+ 
+    </footer>
+
+        <script src="./assets/javascript/game.js"></script>
+
+  </body>
+</html>
